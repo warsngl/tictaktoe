@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+html {
+  /* box-sizing: content-box; */
+}
+
+.fcc {
+  @apply flex items-center justify-center
+}
+
+button {
+  @apply px-4 py-2 bg-blue-200 shadow-lg rounded hover:scale-110 cursor-pointer
+}
+
+.active {
+  @apply ring-indigo-500 ring-2
+}
